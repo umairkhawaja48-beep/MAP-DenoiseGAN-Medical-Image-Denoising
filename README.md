@@ -61,8 +61,8 @@ Measured on BraTS 2021 brain MRI, a lung-CT nodule dataset (NoduleMNIST3D) and C
 ## Installation
 
 ```bash
-git clone https://github.com/umairkhawaja48-beep/MAP-DenoiseGAN-A-Noise-Adaptive-Mixture-of-Experts-Framework-for-Medical-Image-Denoising.git
-cd MAP-DenoiseGAN-A-Noise-Adaptive-Mixture-of-Experts-Framework-for-Medical-Image-Denoising
+git clone https://github.com/umairkhawaja48-beep/MAP-DenoiseGAN.git
+cd MAP-DenoiseGAN
 conda create -n mapdenoise python=3.10 -y
 conda activate mapdenoise
 pip install -r requirements.txt
