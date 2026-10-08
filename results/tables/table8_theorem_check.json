@@ -1,0 +1,5 @@
+{
+  "ambiguity_identity_max_residual_over_all": 9.313225746154785e-09,
+  "identity_holds": true,
+  "note": "Theorem 2.4 is stated for Brier loss on the simplex; this is an adaptation to per-pixel MSE, licensed by the ambiguity decomposition for squared Euclidean loss, verified numerically here."
+}

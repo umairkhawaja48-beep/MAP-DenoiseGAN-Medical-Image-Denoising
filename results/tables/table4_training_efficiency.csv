@@ -1,0 +1,13 @@
+dataset,model,initialisation,epochs,best_epoch,wall_clock_s,train_images,test_psnr_db
+BraTS 2021,agent1_low,from scratch,30,20,977.1,8000,34.44
+BraTS 2021,agent2_medium,inherited,30,1,976.5,8000,32.04
+BraTS 2021,agent3_high,inherited,30,1,976.4,8000,29.48
+BraTS 2021,joint,from scratch,30,25,979.1,8000,31.08
+nodule3d,agent1_low,from scratch,30,20,143.0,1158,37.27
+nodule3d,agent2_medium,inherited,30,20,145.2,1158,34.68
+nodule3d,agent3_high,inherited,30,1,142.2,1158,31.83
+nodule3d,joint,from scratch,30,30,143.3,1158,32.39
+CBSD68,agent1_low,from scratch,30,20,62.8,360,28.8
+CBSD68,agent2_medium,inherited,30,15,49.7,360,26.04
+CBSD68,agent3_high,inherited,30,10,47.2,360,23.88
+CBSD68,joint,from scratch,30,30,48.1,360,24.16

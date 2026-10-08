@@ -1,0 +1,4 @@
+dataset,modality,train,val,test,resolution,source
+BraTS 2021,Brain MRI (axial slices),8000,3000,5000,128x128,BraTS 2021 challenge
+nodule3d,Lung CT (nodule slices),1158,165,310,128x128,MedMNIST3D NoduleMNIST3D
+CBSD68,Natural images (grayscale),360,40,68,128x128,BSD400 train / BSD68 test

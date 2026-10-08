@@ -1,0 +1,4 @@
+model,sigma,mean_dice,std_dice,mean_hausdorff,std_hausdorff,n_images
+restormer_range,0.05,0.8174,0.3174,23.083,55.368,5000
+restormer_range,0.1,0.8121,0.3197,23.305,55.438,5000
+restormer_range,0.2,0.7864,0.338,26.323,58.575,5000

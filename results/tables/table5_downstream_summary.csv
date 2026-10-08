@@ -1,0 +1,25 @@
+method,sigma,mean_dice,std_dice,mean_hausdorff
+No denoising,0.05,0.7375,0.388,37.608
+No denoising,0.1,0.6456,0.4307,49.895
+No denoising,0.2,0.4873,0.4992,91.727
+DnCNN ($\sigma{=}0.1$),0.05,0.8033,0.3265,24.271
+DnCNN ($\sigma{=}0.1$),0.1,0.8088,0.3238,24.024
+DnCNN ($\sigma{=}0.1$),0.2,0.654,0.4084,43.409
+Restormer-lite ($\sigma{=}0.1$),0.05,0.7931,0.3326,25.386
+Restormer-lite ($\sigma{=}0.1$),0.1,0.8083,0.3219,23.484
+Restormer-lite ($\sigma{=}0.1$),0.2,0.6535,0.4255,50.114
+SwinIR-lite ($\sigma{=}0.1$),0.05,0.8018,0.3261,24.007
+SwinIR-lite ($\sigma{=}0.1$),0.1,0.8084,0.3224,23.636
+SwinIR-lite ($\sigma{=}0.1$),0.2,0.6596,0.412,44.233
+Restormer-lite (range-trained),0.05,0.8174,0.3174,23.083
+Restormer-lite (range-trained),0.1,0.8121,0.3197,23.305
+Restormer-lite (range-trained),0.2,0.7864,0.338,26.323
+Single-agent joint,0.05,0.815,0.3161,22.661
+Single-agent joint,0.1,0.8082,0.3194,22.757
+Single-agent joint,0.2,0.7847,0.3349,25.38
+MAP-DenoiseGAN (matched agent),0.05,0.7976,0.3425,27.692
+MAP-DenoiseGAN (matched agent),0.1,0.8036,0.3274,24.434
+MAP-DenoiseGAN (matched agent),0.2,0.7908,0.3339,25.542
+Oracle (clean image),0.05,0.8243,0.3123,22.403
+Oracle (clean image),0.1,0.8243,0.3123,22.403
+Oracle (clean image),0.2,0.8243,0.3123,22.403

@@ -1,0 +1,23 @@
+\begin{table}[!t]
+\centering
+\caption{Training efficiency. All runs use a 30-epoch budget. \emph{Best epoch} is the epoch at which validation PSNR peaked; inherited agents frequently peak at epoch~1, i.e. the inherited initialisation is already near-optimal for the new noise regime before any fine-tuning on it.}
+\label{tab:efficiency}
+\begin{tabular}{lllrrr}
+\toprule
+Dataset & Model & Initialisation & Best epoch & Wall clock (s) & Test PSNR (dB) \\
+\midrule
+BraTS 2021 & agent1\_low & from scratch & 20 & 977 & 34.44 \\
+BraTS 2021 & agent2\_medium & inherited & 1 & 976 & 32.04 \\
+BraTS 2021 & agent3\_high & inherited & 1 & 976 & 29.48 \\
+BraTS 2021 & joint & from scratch & 25 & 979 & 31.08 \\
+nodule3d & agent1\_low & from scratch & 20 & 143 & 37.27 \\
+nodule3d & agent2\_medium & inherited & 20 & 145 & 34.68 \\
+nodule3d & agent3\_high & inherited & 1 & 142 & 31.83 \\
+nodule3d & joint & from scratch & 30 & 143 & 32.39 \\
+CBSD68 & agent1\_low & from scratch & 20 & 63 & 28.80 \\
+CBSD68 & agent2\_medium & inherited & 15 & 50 & 26.04 \\
+CBSD68 & agent3\_high & inherited & 10 & 47 & 23.88 \\
+CBSD68 & joint & from scratch & 30 & 48 & 24.16 \\
+\bottomrule
+\end{tabular}
+\end{table}

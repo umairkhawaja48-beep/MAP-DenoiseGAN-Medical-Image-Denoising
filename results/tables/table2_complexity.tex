@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\centering
+\caption{Model complexity and inference cost. Timings are per image at $128\times128$, batch size 32, on a single NVIDIA A40-class GPU, averaged over 10 runs after 3 warm-up passes. The discriminator is used only during training and adds no inference cost. Every MAP-DenoiseGAN agent is one generator, so a three-agent deployment that routes each image to a single agent has the same per-image inference cost as one generator.}
+\label{tab:complexity}
+\begin{tabular}{lrr}
+\toprule
+Model & Parameters & Inference (ms/image) \\
+\midrule
+MAP-DenoiseGAN generator (U-Net) & 5,142,433 & 0.709 \\
+PatchGAN discriminator (training only) & 694,625 & - \\
+DnCNN & 557,057 & 1.977 \\
+Restormer-lite & 915,725 & 3.555 \\
+SwinIR-lite & 297,601 & 7.244 \\
+\bottomrule
+\end{tabular}
+\end{table}

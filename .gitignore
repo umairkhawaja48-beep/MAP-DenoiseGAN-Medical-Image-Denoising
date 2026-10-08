@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+.env
+
+# Data and run outputs (not tracked)
+data/
+outputs/
+*.npy
+*.npz
+
+# Model checkpoints: only the small noise estimators are tracked
+*.pt
+*.pth
+!checkpoints/noise_estimator/*.pt
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{Inheritance speed-up, measured on the first inheritance step (\texttt{agent1\_low}$\rightarrow$\texttt{agent2\_medium}). The inherited agent's validation PSNR after a single epoch is compared against the epoch at which an otherwise identical from-scratch control first reaches that same value. On BraTS and CBSD68 the control never reaches it within the 30-epoch budget.}
+\label{tab:speedup}
+\begin{tabular}{lrrrr}
+\toprule
+Dataset & Inherited, epoch 1 (dB) & Scratch epochs to match & Scratch best in 30 (dB) & Speed-up \\
+\midrule
+BraTS 2021 & 31.96 & not reached in 30 & 31.47 & $\geq 30\times$ \\
+nodule3d & 32.89 & 10 & 33.31 & $3\times$ \\
+CBSD68 & 25.83 & not reached in 30 & 25.76 & $\geq 30\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}

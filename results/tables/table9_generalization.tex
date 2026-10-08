@@ -1,0 +1,20 @@
+\begin{table}[!t]
+\centering
+\caption{Checking Proposition~\ref{prop:gen}. Active per-input capacity is identical for MAP-DenoiseGAN and the joint model ($5{,}142{,}433$ parameters) on every dataset, so the bounds differ only by routing overhead. Routing entropy, the empirical proxy for that overhead, collapses at $\sigma=0.20$. The measured train--test gaps are of order $10^{-5}$ MSE and negative on two datasets, indicating an underfitting regime in which the estimation term is not binding and the two bounds cannot be separated empirically.}
+\label{tab:gen}
+\begin{tabular}{llrrrr}
+\toprule
+Dataset & $\sigma$ & Gap (MAP) & Gap (joint) & Excess & Routing $H$ (bits) \\
+\midrule
+BraTS 2021 & 0.05 & -7.53e-06 & -7.89e-06 & +3.58e-07 & 0.180 \\
+ & 0.1 & -1.17e-05 & -1.09e-05 & -7.97e-07 & 0.824 \\
+ & 0.2 & -1.06e-05 & -1.46e-05 & +3.98e-06 & 0.041 \\
+nodule3d & 0.05 & -1.75e-06 & -8.21e-06 & +6.46e-06 & 0.404 \\
+ & 0.1 & -1.36e-05 & -1.81e-05 & +4.51e-06 & 0.869 \\
+ & 0.2 & -3.79e-05 & -4.86e-05 & +1.07e-05 & -0.000 \\
+CBSD68 & 0.05 & +1.22e-04 & +1.75e-04 & -5.26e-05 & 0.994 \\
+ & 0.1 & +2.02e-04 & +2.88e-04 & -8.63e-05 & 0.630 \\
+ & 0.2 & +3.83e-04 & +5.99e-04 & -2.16e-04 & -0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,64 @@
+dataset,sigma,method,psnr_db,delta_psnr_db,ssim
+BraTS 2021,0.05,No denoising,27.24,0.0,0.306
+BraTS 2021,0.05,DnCNN ($\sigma{=}0.1$),33.27,6.04,0.9602
+BraTS 2021,0.05,Restormer-lite ($\sigma{=}0.1$),33.41,6.18,0.9617
+BraTS 2021,0.05,SwinIR-lite ($\sigma{=}0.1$),33.48,6.25,0.9594
+BraTS 2021,0.05,Restormer-lite (range-trained),34.91,7.67,0.976
+BraTS 2021,0.05,Single-agent joint,34.06,6.82,0.9736
+BraTS 2021,0.05,MAP-DenoiseGAN (matched agent),33.61,6.38,0.9702
+BraTS 2021,0.1,No denoising,22.08,0.0,0.195
+BraTS 2021,0.1,DnCNN ($\sigma{=}0.1$),32.45,10.38,0.9598
+BraTS 2021,0.1,Restormer-lite ($\sigma{=}0.1$),32.5,10.43,0.9612
+BraTS 2021,0.1,SwinIR-lite ($\sigma{=}0.1$),32.39,10.31,0.9594
+BraTS 2021,0.1,Restormer-lite (range-trained),32.43,10.35,0.9613
+BraTS 2021,0.1,Single-agent joint,31.68,9.6,0.9573
+BraTS 2021,0.1,MAP-DenoiseGAN (matched agent),31.98,9.91,0.9568
+BraTS 2021,0.2,No denoising,16.43,0.0,0.1292
+BraTS 2021,0.2,DnCNN ($\sigma{=}0.1$),20.77,4.34,0.2908
+BraTS 2021,0.2,Restormer-lite ($\sigma{=}0.1$),24.63,8.21,0.6417
+BraTS 2021,0.2,SwinIR-lite ($\sigma{=}0.1$),21.79,5.36,0.3258
+BraTS 2021,0.2,Restormer-lite (range-trained),29.35,12.92,0.9329
+BraTS 2021,0.2,Single-agent joint,28.83,12.4,0.9256
+BraTS 2021,0.2,MAP-DenoiseGAN (matched agent),29.46,13.03,0.9362
+nodule3d,0.05,No denoising,24.96,0.0,0.462
+nodule3d,0.05,DnCNN ($\sigma{=}0.1$),33.6,8.64,0.9005
+nodule3d,0.05,Restormer-lite ($\sigma{=}0.1$),34.07,9.11,0.8913
+nodule3d,0.05,SwinIR-lite ($\sigma{=}0.1$),35.59,10.63,0.9303
+nodule3d,0.05,Restormer-lite (range-trained),38.62,13.67,0.9629
+nodule3d,0.05,Single-agent joint,35.55,10.59,0.9473
+nodule3d,0.05,MAP-DenoiseGAN (matched agent),35.7,10.74,0.9395
+nodule3d,0.1,No denoising,20.6,0.0,0.2673
+nodule3d,0.1,DnCNN ($\sigma{=}0.1$),32.71,12.11,0.8915
+nodule3d,0.1,Restormer-lite ($\sigma{=}0.1$),35.54,14.95,0.931
+nodule3d,0.1,SwinIR-lite ($\sigma{=}0.1$),33.8,13.2,0.9017
+nodule3d,0.1,Restormer-lite (range-trained),35.22,14.63,0.9281
+nodule3d,0.1,Single-agent joint,33.15,12.55,0.8998
+nodule3d,0.1,MAP-DenoiseGAN (matched agent),34.41,13.81,0.9067
+nodule3d,0.2,No denoising,15.65,0.0,0.1217
+nodule3d,0.2,DnCNN ($\sigma{=}0.1$),22.14,6.49,0.4661
+nodule3d,0.2,Restormer-lite ($\sigma{=}0.1$),26.91,11.26,0.7498
+nodule3d,0.2,SwinIR-lite ($\sigma{=}0.1$),26.52,10.88,0.7418
+nodule3d,0.2,Restormer-lite (range-trained),31.27,15.63,0.8621
+nodule3d,0.2,Single-agent joint,30.05,14.41,0.8234
+nodule3d,0.2,MAP-DenoiseGAN (matched agent),31.77,16.12,0.8687
+CBSD68,0.05,No denoising,23.99,0.0,0.6431
+CBSD68,0.05,DnCNN ($\sigma{=}0.1$),26.51,2.51,0.7343
+CBSD68,0.05,Restormer-lite ($\sigma{=}0.1$),26.97,2.98,0.7524
+CBSD68,0.05,SwinIR-lite ($\sigma{=}0.1$),26.26,2.27,0.7788
+CBSD68,0.05,Restormer-lite (range-trained),27.71,3.72,0.821
+CBSD68,0.05,Single-agent joint,26.97,2.98,0.8103
+CBSD68,0.05,MAP-DenoiseGAN (matched agent),27.7,3.71,0.8271
+CBSD68,0.1,No denoising,19.64,0.0,0.4665
+CBSD68,0.1,DnCNN ($\sigma{=}0.1$),25.66,6.02,0.7395
+CBSD68,0.1,Restormer-lite ($\sigma{=}0.1$),26.38,6.75,0.776
+CBSD68,0.1,SwinIR-lite ($\sigma{=}0.1$),25.02,5.38,0.7047
+CBSD68,0.1,Restormer-lite (range-trained),25.85,6.21,0.7523
+CBSD68,0.1,Single-agent joint,25.04,5.4,0.6884
+CBSD68,0.1,MAP-DenoiseGAN (matched agent),26.12,6.48,0.7573
+CBSD68,0.2,No denoising,14.57,0.0,0.2676
+CBSD68,0.2,DnCNN ($\sigma{=}0.1$),18.07,3.5,0.3928
+CBSD68,0.2,Restormer-lite ($\sigma{=}0.1$),20.45,5.88,0.485
+CBSD68,0.2,SwinIR-lite ($\sigma{=}0.1$),22.09,7.52,0.5424
+CBSD68,0.2,Restormer-lite (range-trained),23.31,8.75,0.6215
+CBSD68,0.2,Single-agent joint,22.41,7.84,0.4961
+CBSD68,0.2,MAP-DenoiseGAN (matched agent),23.94,9.37,0.6554

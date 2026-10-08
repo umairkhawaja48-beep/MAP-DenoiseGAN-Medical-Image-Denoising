@@ -1,0 +1,4 @@
+dataset,delta_vs_joint_s005,delta_vs_joint_s010,delta_vs_joint_s020,delta_vs_fixed_sigma_classical_s020,delta_vs_range_classical_s020,advantage_monotone_in_sigma,inheritance_speedup
+BraTS 2021,-0.44,0.31,0.63,4.82,0.11,True,>30
+nodule3d,0.15,1.26,1.71,4.86,0.49,True,10
+CBSD68,0.73,1.09,1.53,1.84,0.62,True,>30

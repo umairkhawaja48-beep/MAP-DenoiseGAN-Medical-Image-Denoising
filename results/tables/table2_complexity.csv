@@ -1,0 +1,6 @@
+model,parameters,inference_ms_per_image
+MAP-DenoiseGAN generator (U-Net),5142433,0.709
+PatchGAN discriminator (training only),694625,-
+DnCNN,557057,1.977
+Restormer-lite,915725,3.555
+SwinIR-lite,297601,7.244

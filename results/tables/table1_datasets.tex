@@ -1,0 +1,14 @@
+\begin{table}[!t]
+\centering
+\caption{Datasets. All images are resampled to $128\times128$ and scaled to $[0,1]$. CBSD68 is a 68-image test-only benchmark and is therefore paired with its conventional companion training set BSD400, which is split 90/10 into train/validation; BSD68 is held out entirely and never seen during training.}
+\label{tab:datasets}
+\begin{tabular}{llrrrl}
+\toprule
+Dataset & Modality & Train & Val & Test & Source \\
+\midrule
+BraTS 2021 & Brain MRI (axial slices) & 8,000 & 3,000 & 5,000 & BraTS 2021 challenge \\
+nodule3d & Lung CT (nodule slices) & 1,158 & 165 & 310 & MedMNIST3D NoduleMNIST3D \\
+CBSD68 & Natural images (grayscale) & 360 & 40 & 68 & BSD400 train / BSD68 test \\
+\bottomrule
+\end{tabular}
+\end{table}

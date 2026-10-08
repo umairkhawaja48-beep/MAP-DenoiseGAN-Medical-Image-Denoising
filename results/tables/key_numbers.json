@@ -1,0 +1,54 @@
+{
+  "replication": [
+    {
+      "dataset": "BraTS 2021",
+      "delta_vs_joint_s005": -0.44,
+      "delta_vs_joint_s010": 0.31,
+      "delta_vs_joint_s020": 0.63,
+      "delta_vs_fixed_sigma_classical_s020": 4.82,
+      "delta_vs_range_classical_s020": 0.11,
+      "advantage_monotone_in_sigma": true,
+      "inheritance_speedup": ">30"
+    },
+    {
+      "dataset": "nodule3d",
+      "delta_vs_joint_s005": 0.15,
+      "delta_vs_joint_s010": 1.26,
+      "delta_vs_joint_s020": 1.71,
+      "delta_vs_fixed_sigma_classical_s020": 4.86,
+      "delta_vs_range_classical_s020": 0.49,
+      "advantage_monotone_in_sigma": true,
+      "inheritance_speedup": "10"
+    },
+    {
+      "dataset": "CBSD68",
+      "delta_vs_joint_s005": 0.73,
+      "delta_vs_joint_s010": 1.09,
+      "delta_vs_joint_s020": 1.53,
+      "delta_vs_fixed_sigma_classical_s020": 1.84,
+      "delta_vs_range_classical_s020": 0.62,
+      "advantage_monotone_in_sigma": true,
+      "inheritance_speedup": ">30"
+    }
+  ],
+  "speedups": {
+    "BraTS2021": {
+      "inherited_epoch1_val_psnr": 31.96,
+      "scratch_epochs_to_match": null,
+      "scratch_best_val_psnr_in_30": 31.47,
+      "speedup_x": ">30"
+    },
+    "nodule3d_128": {
+      "inherited_epoch1_val_psnr": 32.89,
+      "scratch_epochs_to_match": 10,
+      "scratch_best_val_psnr_in_30": 33.31,
+      "speedup_x": "10"
+    },
+    "cbsd68_128": {
+      "inherited_epoch1_val_psnr": 25.83,
+      "scratch_epochs_to_match": null,
+      "scratch_best_val_psnr_in_30": 25.76,
+      "speedup_x": ">30"
+    }
+  }
+}

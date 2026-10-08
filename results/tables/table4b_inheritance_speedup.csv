@@ -1,0 +1,4 @@
+dataset,inherited_epoch1_val_psnr,scratch_epochs_to_match,scratch_best_val_psnr_in_30,speedup_x
+BraTS 2021,31.96,,31.47,>30
+nodule3d,32.89,10,33.31,10
+CBSD68,25.83,,25.76,>30

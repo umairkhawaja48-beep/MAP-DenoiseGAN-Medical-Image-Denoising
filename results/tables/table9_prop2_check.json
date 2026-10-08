@@ -1,0 +1,15 @@
+{
+  "active_params_identical": true,
+  "pearson_r_entropy_vs_excess_gap": 0.18226439370994035,
+  "excess_gap_nonpositive_at_sigma020_all_datasets": false,
+  "sigma020_excess_gaps": {
+    "BraTS 2021": 3.975117579102516e-06,
+    "nodule3d": 1.065677497535944e-05,
+    "CBSD68": -0.0002161622978746891
+  },
+  "sigma020_routing_entropy": {
+    "BraTS 2021": 0.04077830771232602,
+    "nodule3d": -0.0,
+    "CBSD68": -0.0
+  }
+}
